@@ -1,9 +1,8 @@
 # installing-Metasploitable-in-VirtualBox
 
 
-Let’s first discuss what Metasploitable is, it is a testing environment that is very useful for beginner who wants to practice and test their penetration testing skills and security research. It is a target machine that is used to discover and penetrate vulnerabilities so that the user gets an idea of real-life targets and machines.
-
-In other words, Metasploitable is a virtual machine intentionally vulnerable version of Ubuntu designed for testing security tools and demonstrating common vulnerabilities.
+Let’s first discuss what <b>Metasploitable</b> is:
+<strong>Metasploitable</strong> is a virtual machine intentionally vulnerable version of Ubuntu designed for testing security tools and demonstrating common vulnerabilities.
 
 <b>You can check my previous post on how to install </b>
 <em><a href="https://github.com/Nellyjay74/Establishing-a-virtual-Lab">"Virtual box"</a>
@@ -11,7 +10,9 @@ In other words, Metasploitable is a virtual machine intentionally vulnerable ver
 
 
 
-Installation
+<h2>Installation:</h2>
+
+
 <b>Step 1</b>     :<em><a href="https://sourceforge.net/projects/metasploitable/files/latest/download">"Download"</a></em> the Metasploitable file. 
 
 <img src="Folder/Screenshot 2025-01-09 013249.jpg">
@@ -139,15 +140,21 @@ Ensure that your network settings are configured appropriately. It's recommended
 
  
 
+
+
+
 We are good to go with the machine just press the start button from the top and wait for it to start and load the instance.
 
- <img src="Folder/step 7.jpg">
+<img src="Folder/Start MTSP.png">
 
 Step 7. once the instance is loaded you will be asked to provide a login name and password. By default the credentials are :
+<ul
+<li><strong>Default login: msfadmin</strong></ul>
+<li><strong>Default password: msfadmin</strong></li>
+</ul>
+ <img src="Folder/step 7.jpg">
 
 
-Default login: msfadmin
-Default password: msfadmin
 
  
 
