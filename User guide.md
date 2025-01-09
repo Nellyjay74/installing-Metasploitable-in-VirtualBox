@@ -5,53 +5,143 @@ Let’s first discuss what Metasploitable is, it is a testing environment that i
 
 In other words, Metasploitable is a virtual machine intentionally vulnerable version of Ubuntu designed for testing security tools and demonstrating common vulnerabilities.
 
-To install this virtual machine in your virtual box, We assume that you have a virtual box installed on your system.
+<b>You can check my previous post on how to install </b>
+<em><a href="https://github.com/Nellyjay74/Establishing-a-virtual-Lab">"Virtual box"</a>
+
+
+
 
 Installation
-Step 1:<em><a href="https://sourceforge.net/projects/metasploitable/files/latest/download">"Download"</a></em> the Metasploitable file. 
+<b>Step 1</b>     :<em><a href="https://sourceforge.net/projects/metasploitable/files/latest/download">"Download"</a></em> the Metasploitable file. 
 
-<img src="Folder/image1.jpg">
- 
+<img src="Folder/Screenshot 2025-01-09 013249.jpg">
+
+
+
+
+
 
 Step 2: The file initially will be in zip format so we need to extract it, after extracting the file open VirtualBox.
 
+<img src="Folder/image1.jpg">
 
-<img src="Folder/step 2.jpg">
+
+
+
+
+
+
  
 
-Step 3: Now as shown in the above image click on the <strong>New</strong> option in the Virtual box.
+Step 3: click on the <strong>New</strong> option in the Virtual box.
 
-<img src="Folder/step 3.jpg">
- 
+<img src="Folder/New.jpg">
+
+
+
+
 
 now a window will pop up and you will be asked to provide some details like the name of your machine, installation path, type, and version.
 fill in the details like:
-Name: as per your choice
-Path: leave as recommended
-Type: Linux
-Version: other (64-bit)
+<ul>
+ <li>Name: as per your choice</li>
+<li>Path: leave as recommended</li>
+<liType: Linux</li>
+<li>Version: other (64-bit)</li>
+ </ul>
+<img src="Folder/step 3.jpg">
 
- <img src="Folder/step 4.jpg">
 
-Step 4: Select the RAM you want to provide to the virtual machine. recommended (512Mb).
+
+
+
+
+
+
+
+<b>Step 4: Select the RAM you want to provide to the virtual machine. recommended (512Mb).</b>
+
+<img src="Folder/step 4.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<b>Step 5: Now choose the option to use an existing virtual hard disk file</b>
+
+<img src="Folder/Existing HDD.png">
+
+
+
+
+
+
+<b>Step 6: Configure the Network</b>
+Ensure that your network settings are configured appropriately. It's recommended to use NAT or Host-only network settings to keep the VM isolated from public networks, as Metasploitable should never be exposed to untrusted networks.
+
+<img src="Folder/network.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+<strong>Now locate the file that we have extracted.</strong>
+
+
+
 
 <img src="Folder/step 5.jpg">
- 
-
-Step 5: Now choose the option to use an existing virtual hard disk file.
 
 
- 
 
-Now locate the file that we have extracted.
-Step 6: Now save the file and you will see that the instance is created with the name you have given.
+
+
+
+
+
+<b>Step 6: Now save the file and you will see that the instance is created with the name you have given.</b>
+
+<img src="Folder/step 6.jpg">
+
+
+
+
+
+
 
 
  
 
 We are good to go with the machine just press the start button from the top and wait for it to start and load the instance.
 
- 
+ <img src="Folder/step 7.jpg">
 
 Step 7. once the instance is loaded you will be asked to provide a login name and password. By default the credentials are :
 
